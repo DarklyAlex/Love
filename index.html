@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Для моего зайчонка 🐰💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<audio id="bgMusic" src="music.mp3"></audio>
+<div class="hearts"></div>
+
+<section class="hero">
+  <h1>Для тебя, <span class="accent">Зайчонок 🐰</span></h1>
+  <p class="typing" id="typingText"></p>
+  <button onclick="startExperience()">Нажми сюда ✨</button>
+</section>
+
+<section id="reasons" class="section hidden">
+  <h2>Почему я тебя люблю</h2>
+  <div class="cards">
+    <div class="card">Твоя улыбка делает мой мир ярче</div>
+    <div class="card">С тобой я чувствую себя дома</div>
+    <div class="card">Ты самая нежная и красивая</div>
+    <div class="card">Ты мой лучший друг и любовь</div>
+    <div class="card">С тобой всё имеет смысл</div>
+  </div>
+</section>
+
+<section class="section hidden">
+  <h2>Мы вместе уже</h2>
+  <div id="loveTimer"></div>
+</section>
+
+<section class="section hidden">
+  <h2>Наши моменты 📸</h2>
+  <div class="gallery-container">
+    <div class="gallery" id="gallery"></div>
+  </div>
+</section>
+
+<section class="section final hidden">
+  <h2>Зайчонок, ты — лучшее, что случилось со мной ❤️</h2>
+  <button onclick="showFinal()">Открыть письмо 💌</button>
+  <p id="finalText"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
