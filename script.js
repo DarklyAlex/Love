@@ -27,7 +27,7 @@ function updateTimer() {
   const minutes = Math.floor((diff / (1000 * 60)) % 60);
 
   document.getElementById("loveTimer").innerText =
-    `${days} дней ${hours} часов ${minutes} минут вместе 💕`;
+    `${days} дн ${hours} ч ${minutes} мин вместе 💕`;
 }
 setInterval(updateTimer, 1000);
 updateTimer();
@@ -45,7 +45,7 @@ function meetTimer() {
   const minutes = Math.floor((diff / (1000 * 60)) % 60);
 
   document.getElementById("meetTimer").innerText =
-    `💕${days} дней ${hours} часов ${minutes} минут до нашей встречи 💕`;
+    `💕${days} дн ${hours} ч ${minutes} мин до нашей встречи 💕`;
 }
 
 // Финальное письмо
@@ -141,3 +141,4 @@ function handleSwipe(diff) {
 function updateGallery() {
   gallery.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
+
